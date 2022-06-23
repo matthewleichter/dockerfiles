@@ -1,6 +1,8 @@
 # dockerfiles
 files for docker compose and faust streaming 
 
+Go to https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download and download the creditcard.csv file in this root folder if using on your local. Once you have that, copy everything EXCEPT fraud_model folder. That will be created when you run the first jupyter notebook code at the mlflow command on the last line.
+
 Note: make sure you are in this root folder when running any of these commands. Also there are a number of pip installs and conda installs you'll need:
 a. Kafka-python
 b. mlflow (mlflow[extras] recommended AND as a conda install using conda-forge)
